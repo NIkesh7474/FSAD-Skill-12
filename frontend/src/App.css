@@ -1,0 +1,114 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 28px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+
+h1 {
+  color: #1a237e;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Add Form */
+.form-container {
+  background: #f5f5f5;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.form-container h3 {
+  color: #1a237e;
+  margin-bottom: 12px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form-row input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  flex: 1;
+}
+
+.btn-add {
+  padding: 8px 18px;
+  background: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-add:hover { background: #36a420; }
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background: #1a237e;
+  color: white;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+td {
+  padding: 9px 14px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+tr:nth-child(even) { background: #f5f5f5; }
+tr:hover           { background: #e8eaf6; }
+
+/* Action Buttons */
+.btn-update {
+  padding: 5px 12px;
+  background: #1565c0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.btn-update:hover { background: #0d47a1; }
+
+.btn-delete {
+  padding: 5px 12px;
+  background: #fa3e3e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-delete:hover { background: #d32f2f; }
+
+.empty {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  margin-top: 20px;
+}

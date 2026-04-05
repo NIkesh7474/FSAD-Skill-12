@@ -1,0 +1,6 @@
+package com.fsad.crud;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface StudentRepository extends JpaRepository<Student, Long> {
+}
